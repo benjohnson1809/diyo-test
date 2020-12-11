@@ -1,0 +1,27 @@
+Diyo Test Api
+
+lumen 7.x
+php 7.2^
+
+-git clone https://github.com/juanaliady/test-restaurant.git
+
+-composer install
+
+-php artisan key:generate
+
+-php artisan clear:cache
+
+-composer dump-autoload
+
+-php artisan migrate:fresh --seed
+
+-php -S localhost:8080 -t public
+
+note:
+
+setting auth ada di middleware di /routes/web.php
+
+MVP dari segi performa mengedepankan keringanan serta simple
+
+cuma api/products yang pede
+
